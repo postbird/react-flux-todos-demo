@@ -4,4 +4,6 @@ import App from './App';
 
 const root = document.getElementById('app');
 
+import './dispatcher/TodoDispatcher';
+
 ReactDOM.render(<App/>,root);
